@@ -12,8 +12,24 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
 
   - [Scratch Project](https://scratch.mit.edu/projects/)
 >  Computer science is not so much about programming as it is about problem solving
+# ⛳[Week-1]([lecture_1](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1)) `[Theme: Basics of C, Greedy Algorithm, Cryptography]`
+
+## Project: 
+
+  - Lab
+    - [cash]()
+    - [Population]()
+  - Problem set
+    - Mario
+      - [Mario-less]()
+      - [Mario-more]()
+    - [cash]()
+    - [credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission%20/credit)
+
 ## C basic
+
 There are a few guiding lights when writing code: correctness, design, style.
+
 ```c
 #include <stdio.h>
 
@@ -22,9 +38,11 @@ int main(void)
   printf("hello, world");
 }
 ```
+
 > You need to type `make hello` to compile your code and `./hello` to run it.
 
 ## The Command Line
+
 The command line lets you run commands without the need for a GUI.
 
 cd, for changing our current directory (folder)
@@ -42,18 +60,22 @@ In C you have access to many data types: bool, char, double, float, int, long, s
 *Integers only use 32 bits*. This can support 4 billion total values and lets you count from -2 billion to 2 billion. To work with larger numbers you'd need a long.
 
 When working with formatted strings, you can use the following format codes:
+
 - %c - single character
 - %f - floating point value
 - %i - integer
 - %li - long
 - %s - string
+
 > C supports a number of mathmatical operators: +, -, \*, /, %.
 
 ## Conditionals
+
 > Conditional expressions allow your programs to make decisions and take different forks in the road, depending on the values of variables or user input.
-[slides](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.cs50.net/2017/fall/shorts/conditional_statements/conditional_statements.pdf)
+> [slides](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.cs50.net/2017/fall/shorts/conditional_statements/conditional_statements.pdf)
 
 ## Loops
+
 [slides](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.cs50.net/2017/fall/shorts/loops/loops.pdf)
 
 > Loops allow your programs to execute lines of code repeatedly, saving you from needing to copy and paste or otherwise repeat lines of code.
@@ -66,39 +88,196 @@ When working with formatted strings, you can use the following format codes:
 - while 
   - Use when you want a loop to repeat an unknown number of times, and possibly not at all. 
 - do-while 
-	- for Use when you want a loop to repeat an unknown number of times, but at least once. 
+  - for Use when you want a loop to repeat an unknown number of times, but at least once. 
 - for
-	- Use when you want a loop to repeat a discrete number of times, though you may not know the number at the moment the program is compiled.
+  - Use when you want a loop to repeat a discrete number of times, though you may not know the number at the moment the program is compiled.
 
 ## Operators
+
 [sides](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.cs50.net/2017/fall/shorts/operators/operators.pdf)
 
 - Arithmetic Operators
 - Boolean Expressions  
 
-# ⛳[Week-1]([lecture_1](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1)) `[Theme: Basics of C, Greedy Algorithm, Cryptography]`
-
-## Project: 
-
-  - Lab
-    - [cash]()
-    - [Population]()
-  - Problem set
-    - Mario
-      - [Mario-less]()
-      - [Mario-more]()
-    - [cash]()
-    - [credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission%20/credit)
+# 
 
 # ⛳[Week-2](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2)`[Theme: Arrays, Cryptography, Encryption]`
 
-​     
+##      project
 
 - Lab
   - [scrabble](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/scrabble)
 - Problem set
   - [readability](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/readability)
   - [substitution](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/substitution)
+
+## Compiling
+
+A compiler is a programme that converts source code to machine code. Clang is a popular compiler for C.
+
+When all programmes had to be compiled, the default file produced was `a.out` for assembly output.
+
+Clang can be configured with command line arguments but these can become long and verbose. Eventually you will want to automate the steps.
+
+Sometimes when using a library it's not sufficient to include the header file at the top of your code, you need to explicitly tell the computer where to find the file.
+
+When you comile your code there are a few steps involved:
+
+- precompiling
+- compiling
+- assembling
+- linking
+
+First the computer preprocesses your code, looking for any lines starting with `#` and copying the contents of the referenced file into your own code.
+
+To compile your code means to convert it from source code to another kind of source code, assembly code.
+
+To assemble your code means to convert your code from assembly to machine code, 0s and 1s.
+
+Finally the 0s and 1s of your code need to be linked to the 0s and 1s of any library you are using.
+
+## Memory
+
+On a typical computer each data type in C is defined as taking up a fixed amount of space. This varies, but for example:
+
+- bool - 1 byte
+- char - 1 byte
+- double - 8 bytes
+- float - 4 bytes
+- int - 4 bytes
+- long - 8 bytes
+- string - ? bytes
+
+It's in memory (RAM) that programmes are stored while running and files are stored while open.
+
+RAM is much faster than solid state storage but it's also volatile, it requires electricity to maintain it.
+
+Imagine your computer's memory as a grid of bytes. An int would take up 4 spaces. In those 4 spaces would be a pattern of 0s and 1s representing the int.
+
+## Arrays
+
+An array is a sequence of values stored in memory back to back.
+
+In C you need to specify how many values you want to store in the array when you declare it. The exception is when you are passing an array to a custom function, because you don't know in advance.
+
+```c
+int scores[3];
+
+scores[0] = 72;
+scores[1] = 73;
+scores[2] = 33;
+```
+
+A constant is a variable whose value cannot change.
+
+```c
+const int TOTAL = 3;
+```
+
+## Strings
+
+If you cast a character to an int, you can access its ASCII value.
+
+Each char is stored in a single byte.
+
+By default, C does not have a string datatype.
+
+A string is an array of characters.
+
+So the string `"HI!"` is equivalent to the array `['H', 'I', '!']`.
+
+You can access the individual characters of a string using [] notation.
+
+The computer's memory knows when strings begin and end because, under the hood, the string uses one extra byte, `\0` or `NUL`, to represent the end of the string. For example, the string `HI!` uses 4 bytes, not 3.
+
+```c
+string s = "HI!"
+printf("%i %i %i %i\n", s[0], s[1], s[2], s[3]);
+// 72 73 33 0
+```
+
+One dangerous aspect of C is that you can access values from other parts of memory. If you accessed `s[4]` you would get whatever value is in this adjacent spot in memory.
+
+If you want to loop to the end of a string and then stop, you could set your loop to break when it reaches `\0` or use the `strlen()` function from `<string.h>`.
+
+```c
+int main(void)
+{
+  string s = get_string("Input: ");
+  printf("Output: ");
+  for (int i = 0, n = strlen(s); i < n; i++)
+  {
+    printf("%c", s[i]);
+  }
+  printf("\n");
+}
+
+```
+
+## Arrays of Strings
+
+You can have an array of strings. And since a string is itself an array, this is an array of arrays.
+
+```c
+string words[2];
+words[0] = "HI!";
+words[1] = "BYE!";
+```
+
+You can use multiple [] to access values from nested arrays.
+
+```c
+words[0][0]
+// 'H'
+words[1][1]
+// 'Y'
+```
+
+The ASCII values of uppercase and lowercase letters are always 32 apart. You could uppercase a lowercase letter by subtracting 32 from it. Or you could just use the `toupper()` function from `<ctype.h>`. `toupper()` expects a character as input; you cannot pass a word to it. To make a string uppercase you would need to loop over every character in the string.
+
+## Command-line Arguments
+
+Just as custom functions can take inputs, so can main.
+
+```c
+int main(int argc, string argv[])
+{
+
+}
+```
+
+This means that this `main` takes an int and an array of strings as its input.
+
+`argc` stands for argument count, the number of words you expect your user to type at the prompt. This includes the name of your programme.
+
+`argv` stands for argument vector, an array of the strings typed by the user.
+
+## Exit Status
+
+Programmes often return an int to show what has happened. 0 indicates that nothing as gone wrong. This is why in C you set up `main` to return an int.
+
+```c
+int main(int argc, string argv[])
+{
+  if (argc != 2)
+  {
+    printf("missing command-line argument\n");
+    return 1;
+  }
+  printf("hello, %s\n", argv[1]);
+  return 0;
+}
+```
+
+## Cryptography
+
+Cryptography is the art of scrambling information in order to hide it.
+
+If that information is text, you can convert the plaintext to ciphertext.
+
+A cipher is an algorithm that scrambles its input so as to produce an output that a third party can't understand. That algorithm is a reversible process so that you can decipher the text and read it.
+
+Ciphers use a key to determine how to encrypt and decrypt the input.
 
 # ⛳[Week-3]() `[Theme: Algorithms, Graph Theory Basics]`
 
@@ -130,8 +309,88 @@ When working with formatted strings, you can use the following format codes:
 - The Θ symbol is used to denote where the upper bound and lower bound are the same, where the best case and the worst case running times are the same.
 
 ## [Linear and Binary Search](https://cs50.harvard.edu/x/2023/notes/3/#linear-and-binary-search)
-## [Data Structures](https://cs50.harvard.edu/x/2023/notes/3/#data-structures)
-## [Sorting](https://cs50.harvard.edu/x/2023/notes/3/#sorting)
+
+### Linear search 
+
+Linear search sequentially checks every item in a list.
+
+This has a time complexity of O(n) and Ω(1).
+
+```c
+int main(void)
+{
+  int numbers[] = {4,6,8,2,7,5,0};
+
+  for (int i = 0; i < 7; i++)
+  {
+    if (numbers[i] == 0)
+    {
+      printf("Found\n");
+      return 0;
+    }
+  }
+  printf("Not found\n");
+  return 1;
+}
+```
+
+### Binary Search
+
+Binary search repeatedly divides in half the part of a list that could contain an item, until the possible locations is narrowed down to just one.
+
+This has a time complexity of O(log n) and Ω(1).
+
+
+
+## Structs
+
+Using `typefed` and the `struct` keyword, C can create a datatype that is combination of other datatypes. This could be useful for storing key value pairs.
+
+```c
+typedef struct
+{
+  string name;
+  string number;
+}
+person;
+```
+
+Phone numbers should be represented using strings not ints since they can have non-numeric characters in them.
+
+```c
+typedef struct
+{
+  string name;
+  string number;
+}
+person;
+
+int main(void)
+{
+  person people[2];
+
+  people[0].name = "Brian";
+  people[0].number = "+1-617-495-1000";
+
+  people[1].name = "David";
+  people[1].number = "+1-949-468-2750";
+
+  for (int i = 0; i < 2; i++)
+  {
+    if (strcmp(names[i].name, "David") == 0)
+    {
+      printf("Found %s\n", people[i].number);
+      return 0;
+    }
+  }
+  printf("Not found\n");
+  return 1;
+}
+```
+
+
+
+##   [Sorting](https://cs50.harvard.edu/x/2023/notes/3/#sorting)
 
 - *sorting* is the act of taking an unsorted list of values and transforming this list into a sorted one.
 
@@ -140,12 +399,29 @@ When working with formatted strings, you can use the following format codes:
 - It turns out that there are many different types of sort algorithms.
 
 - *Selection sort* is one such search algorithm.
+### Merge Sort 
 
+  - In merge sort, the idea of the algorithm is to sort smaller arrays and then combine those arrays together (merge them) in sorted order. 
   
+  - Merge sort leverages something called recursion touch on in more detail in a future video. In pseudocode: 
+  - In pseudocode: 
+    -  Sort the left half of the array (assuming n >1)
+    - Sort the right half of the array (assuming n>1)
+    -  Merge the two halves together
 
- ## [Recursion](https://cs50.harvard.edu/x/2023/notes/3/#recursion)
+### Selection Sort
 
-  
+Selection sort loops over a list, finding the smallest unsorted item and swapping it with the leftmost unsorted item until all items have been sorted. It is relatively inefficient.
+
+It has a time complexity of O(n2) and Ω(n2).
+
+### Bubble Sort
+
+Bubble sort loops over a list, compares two adjacent elements and swaps them if they are in the wrong order. The loop is repeated until the list is sorted. The largest values bubble up to the end of the list.
+
+It has a time complexity of O(n2) and Ω(n).  
+
+## [Recursion](https://cs50.harvard.edu/x/2023/notes/3/#recursion)
 
 # ⛳[Week-4]() `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
 
