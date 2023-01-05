@@ -88,7 +88,7 @@ When working with formatted strings, you can use the following format codes:
       - [mario-less](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-less)
       - [mario-more](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-more)
     - [cash](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /cash)
-    - [credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /credit)
+    - [credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission%20/credit)
 
 # ⛳[Week-2](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2)`[Theme: Arrays, Cryptography, Encryption]`
 
