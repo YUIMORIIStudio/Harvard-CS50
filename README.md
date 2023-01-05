@@ -6,7 +6,7 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
 
 # Notes📝 & Project🚀
 
-## ⛳[Week-0 project]()  `[Theme: Basics of Programming]`
+# ⛳[Week-0 project]()  `[Theme: Basics of Programming]`
 
 ## Project: 
 
@@ -76,39 +76,79 @@ When working with formatted strings, you can use the following format codes:
 - Arithmetic Operators
 - Boolean Expressions  
 
-## ⛳[Week-1]([lecture_1](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1)) `[Theme: Basics of C, Greedy Algorithm, Cryptography]`
+# ⛳[Week-1]([lecture_1](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1)) `[Theme: Basics of C, Greedy Algorithm, Cryptography]`
 
 ## Project: 
 
   - Lab
-    - [Hello](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /hello)
+    - [[hello](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /hello)]
     - [Population]()
     
   - Problem set
     - Mario
-      - [Less comfortable](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-less)
-      - [More comfortable](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-more)
-    - [Cash](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission%20/cash)
-    - [Credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /credit)
+      - [mario-less](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-less)
+      - [mario-more](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-more)
+    - [cash](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /cash)
+    - [credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /credit)
 
-⛳[Week-2](https://github.com/vrv501/CS50x-2021/blob/main/pset2) `[Theme: Arrays, Cryptography, Encryption]`
-     
+# ⛳[Week-2](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2)`[Theme: Arrays, Cryptography, Encryption]`
+
+​     
+
 - Lab
-  - [Scrabble]([scrabble](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/scrabble))
+  - [scrabble](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/scrabble)
 - Problem set
-  - [Readability]([readability](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/readability))
-  - [Substitution]([substitution](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/substitution))
+  - [readability](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/readability)
+  - [substitution](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/substitution)
 
-⛳[Week-3](https://github.com/vrv501/CS50x-2021/blob/main/pset3) `[Theme: Algorithms, Graph Theory Basics]`
+# ⛳[Week-3]() `[Theme: Algorithms, Graph Theory Basics]`
+
+## Project
 
   - Lab
-    - [Sort](https://github.com/vrv501/CS50x-2021/blob/main/pset3/sort)
+    - [Sort]( )
   - Problem set
-    - [Plurality](https://github.com/vrv501/CS50x-2021/blob/main/pset3/plurality)
-    - [Runoff](https://github.com/vrv501/CS50x-2021/blob/main/pset3/runoff)
-    - [Tideman](https://github.com/vrv501/CS50x-2021/blob/main/pset3/tideman)(Recursive approach)💥
+    - [Plurality]( )
+    - [Runoff]( )
+    - [Tideman]()(Recursive approach)💥
 
-⛳[Week-4](https://github.com/vrv501/CS50x-2021/blob/main/pset4) `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
+## [Running Time](https://cs50.harvard.edu/x/2023/notes/3/#running-time)
+
+>  *running time* involves an analysis using *big O* notation. Take a look at the following graph:
+
+- It’s the shape of the curve that shows the efficiency of an algorithm. Some common running times we may see are:
+  - O(n2)
+  - O(nlog⁡n)
+  - O(n)
+  - O(log⁡n)
+  - O(1)
+
+- Of the running times above, O(n2) is considered the worst running time, O(1) is the fastest.
+- Linear search was of order O(n) because it could take *n* steps in the worst case to run.
+- Binary search was of order O(log⁡n) because it would take fewer and fewer steps to run even in the worst case.
+- Programmers are interested in both the worst case, or *upper bound*, and the best case, or *lower bound*.
+- The Ω symbol is used to denote the best case of an algorithm, such as Ω(log⁡n).
+- The Θ symbol is used to denote where the upper bound and lower bound are the same, where the best case and the worst case running times are the same.
+
+## [Linear and Binary Search](https://cs50.harvard.edu/x/2023/notes/3/#linear-and-binary-search)
+## [Data Structures](https://cs50.harvard.edu/x/2023/notes/3/#data-structures)
+## [Sorting](https://cs50.harvard.edu/x/2023/notes/3/#sorting)
+
+- *sorting* is the act of taking an unsorted list of values and transforming this list into a sorted one.
+
+- When a list is sorted, searching that list is far less taxing on the computer. Recall that we can use binary search on a sorted list, but not on an unsorted one.
+
+- It turns out that there are many different types of sort algorithms.
+
+- *Selection sort* is one such search algorithm.
+
+  
+
+ ## [Recursion](https://cs50.harvard.edu/x/2023/notes/3/#recursion)
+
+  
+
+⛳[Week-4]() `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
 
   - Lab
 
