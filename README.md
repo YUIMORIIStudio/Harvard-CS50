@@ -81,9 +81,8 @@ When working with formatted strings, you can use the following format codes:
 ## Project: 
 
   - Lab
-    - [hello](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /hello)
+    - [cash](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /cash)
     - [Population]()
-    
   - Problem set
     - Mario
       - [mario-less](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-less)
