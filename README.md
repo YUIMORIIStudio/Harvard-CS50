@@ -81,15 +81,15 @@ When working with formatted strings, you can use the following format codes:
 ## Project: 
 
   - Lab
-    - [Hello]([hello](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /hello))
-    - [Population](https://github.com/vrv501/CS50x-2021/blob/main/pset1/population)
+    - [Hello](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /hello)
+    - [Population]()
     
   - Problem set
     - Mario
-      - [Less comfortable]([mario-less](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-less))
-      - [More comfortable]([mario-more](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-more))
+      - [Less comfortable](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-less)
+      - [More comfortable](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-more)
     - [Cash](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission%20/cash)
-    - [Credit]([credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /credit))
+    - [Credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /credit)
 
 ⛳[Week-2](https://github.com/vrv501/CS50x-2021/blob/main/pset2) `[Theme: Arrays, Cryptography, Encryption]`
      
