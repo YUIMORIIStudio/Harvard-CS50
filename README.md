@@ -81,13 +81,13 @@ When working with formatted strings, you can use the following format codes:
 ## Project: 
 
   - Lab
-    - [cash](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /cash)
+    - [cash]()
     - [Population]()
   - Problem set
     - Mario
-      - [mario-less](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-less)
-      - [mario-more](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /mario-more)
-    - [cash](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission /cash)
+      - [Mario-less]()
+      - [Mario-more]()
+    - [cash]()
     - [credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission%20/credit)
 
 # ⛳[Week-2](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2)`[Theme: Arrays, Cryptography, Encryption]`
@@ -147,63 +147,55 @@ When working with formatted strings, you can use the following format codes:
 
   
 
-⛳[Week-4]() `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
+# ⛳[Week-4]() `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
 
   - Lab
 
-    - [Volume](https://github.com/vrv501/CS50x-2021/blob/main/pset4/volume)
+    - 
 
   - Problem set
 
-    - Filter💥
+    - 💥
 
-      - [Less comfortable](https://github.com/vrv501/CS50x-2021/blob/main/pset4/filter/less)
-      - [More comfortable](https://github.com/vrv501/CS50x-2021/blob/main/pset4/filter/more)
       
-    - [Recover](https://github.com/vrv501/CS50x-2021/blob/main/pset4/recover)
+      
 
-⛳[Week-5](https://github.com/vrv501/CS50x-2021/blob/main/pset5) `[Theme: Data Structures⚠]`
-
-  - Lab
-    - [Inheritance](https://github.com/vrv501/CS50x-2021/blob/main/pset5/inheritance)
-  - Problem set
-    - [Speller](https://github.com/vrv501/CS50x-2021/blob/main/pset5/speller)(Using Tries)💥
-
-⛳[Week-6](https://github.com/vrv501/CS50x-2021/blob/main/pset6) `[Theme: Basics of Python, Forensics, Probability]`
+# ⛳[Week-5]( ) `[Theme: Data Structures⚠]`
 
   - Lab
-    - [World Cup](https://github.com/vrv501/CS50x-2021/blob/main/pset6/worldcup)
+    - 
   - Problem set
-    - [Hello](https://github.com/vrv501/CS50x-2021/blob/main/pset6/hello)
-    - Mario
-      - [Less comfortable](https://github.com/vrv501/CS50x-2021/blob/main/pset6/mario/less)
-      - [More comfortable](https://github.com/vrv501/CS50x-2021/blob/main/pset6/mario/more)
-    - [Cash](https://github.com/vrv501/CS50x-2021/blob/main/pset6/cash)
-    - [Credit](https://github.com/vrv501/CS50x-2021/blob/main/pset6/credit)
-    - [Readability](https://github.com/vrv501/CS50x-2021/blob/main/pset6/readability)
-    - [DNA](https://github.com/vrv501/CS50x-2021/blob/main/pset6/dna)
+    - 💥
 
-⛳[Week-7](https://github.com/vrv501/CS50x-2021/blob/main/pset7) `[Theme: SQLite, Database querying, Crime Investigation]`
+# ⛳[Week-6]( ) `[Theme: Basics of Python, Forensics, Probability]`
 
   - Lab
-    - [Songs](https://github.com/vrv501/CS50x-2021/blob/main/pset7/songs)
+    - 
   - Problem set
-    - [Movies](https://github.com/vrv501/CS50x-2021/blob/main/pset7/movies)
-    - [Fiftyville](https://github.com/vrv501/CS50x-2021/blob/main/pset7/fiftyville)💥
+    - 
+    - 
+      - 
+      - 
+    - 
 
-⛳[Week-8](https://github.com/vrv501/CS50x-2021/blob/main/pset8) `[Theme: Basics of HTML, CSS, Javascript, DOM]`
+# ⛳[Week-7]() `[Theme: SQLite, Database querying, Crime Investigation]`
 
   - Lab
-    - [Trivia](https://github.com/vrv501/CS50x-2021/blob/main/pset8/trivia)
+    - 
   - Problem set
-    - [Homepage](https://github.com/vrv501/CS50x-2021/blob/main/pset8/homepage)
-      View the website [here](https://skyfall01.github.io/CS50x-2021/) !!!
+    - 
+    - 💥
 
-⛳[Week-9](https://github.com/vrv501/CS50x-2021/blob/main/pset9) `[Theme: Flask, Python revisited, Jinja, Equity Markets(Stocks)]`
+# ⛳[Week-8]() `[Theme: Basics of HTML, CSS, Javascript, DOM]`
 
   - Lab
-    - [Birthdays](https://github.com/vrv501/CS50x-2021/blob/main/pset9/birthdays)
+    - 
   - Problem set
-    - [Finance](https://github.com/vrv501/CS50x-2021/blob/main/pset9/finance)💥
+    - 
 
-# 
+# ⛳[Week-9]() `[Theme: Flask, Python revisited, Jinja, Equity Markets(Stocks)]`
+
+  - Lab
+    - 
+  - Problem set
+    - 
