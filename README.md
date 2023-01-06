@@ -284,16 +284,9 @@ Ciphers use a key to determine how to encrypt and decrypt the input.
 
   - Lab
     - [Sort]( )
-    
-      - ```c
-        //using method to count to time
-        time ./sort2 file.txt
-        ```
-    
   - Problem set
     - [Plurality]( )
-    - [Runoff]( )
-    - [Tideman]()(Recursive approach)💥
+    - [Runoff💥]( )
 
 ## [Running Time](https://cs50.harvard.edu/x/2023/notes/3/#running-time)
 
