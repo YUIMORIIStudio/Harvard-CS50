@@ -6,25 +6,24 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
 
 # Notes📝 & Project🚀
 
-# ⛳[Week-0 project]()  `[Theme: Basics of Programming]`
+## ⛳[Week-0]()  `[Theme: Basics of Programming]`
 
 ## Project: 
 
   - [Scratch Project](https://scratch.mit.edu/projects/)
 >  Computer science is not so much about programming as it is about problem solving
-# ⛳[Week-1]([lecture_1](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1)) `[Theme: Basics of C, Greedy Algorithm, Cryptography]`
+## ⛳[Week-1](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1) `[Theme: Basics of C, Greedy Algorithm, Cryptography]`
 
 ## Project: 
 
   - Lab
-    - [cash]()
-    - [Population]()
+    - [Population](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/population)
   - Problem set
     - Mario
-      - [Mario-less]()
-      - [Mario-more]()
-    - [cash]()
-    - [credit](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_1/Submission%20/credit)
+      - [Mario-less](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/mario-less)
+      - [Mario-more](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/mario-more)
+    - [cash](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/cash)
+    - [credit]([credit](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission /credit))
 
 ## C basic
 
@@ -101,7 +100,7 @@ When working with formatted strings, you can use the following format codes:
 
 # 
 
-# ⛳[Week-2](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2)`[Theme: Arrays, Cryptography, Encryption]`
+## ⛳[Week-2](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_2)`[Theme: Arrays, Cryptography, Encryption]`
 
 ##      project
 
