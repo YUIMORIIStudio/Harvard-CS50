@@ -285,6 +285,12 @@ Ciphers use a key to determine how to encrypt and decrypt the input.
 
   - Lab
     - [Sort]( )
+    
+      - ```c
+        //using method to count to time
+        time ./sort2 file.txt
+        ```
+    
   - Problem set
     - [Plurality]( )
     - [Runoff]( )
@@ -388,8 +394,6 @@ int main(void)
 }
 ```
 
-
-
 ##   [Sorting](https://cs50.harvard.edu/x/2023/notes/3/#sorting)
 
 - *sorting* is the act of taking an unsorted list of values and transforming this list into a sorted one.
@@ -403,23 +407,190 @@ int main(void)
 
   - In merge sort, the idea of the algorithm is to sort smaller arrays and then combine those arrays together (merge them) in sorted order. 
   
-  - Merge sort leverages something called recursion touch on in more detail in a future video. In pseudocode: 
+  - This algorithm is a very typical application of the Divide and Conquer method.
+  
+  - Merge sort leverages something called recursion touch on in more detail in a future video.
+
+  - Order of (n Log n) (Worse case scenario - unsorted array)
+
+- Omega (n log n)  (Best case scenario - sorted array)
+
+   ![img](https://www.runoob.com/wp-content/uploads/2019/03/mergeSort.gif)
+
   - In pseudocode: 
-    -  Sort the left half of the array (assuming n >1)
+    - Sort the left half of the array (assuming n >1)
+    
     - Sort the right half of the array (assuming n>1)
-    -  Merge the two halves together
+    
+    - Merge the two halves together
+    
+      
+    
+    ```java
+    public class MergeSort implements IArraySort {
+    
+        @Override
+        public int[] sort(int[] sourceArray) throws Exception {
+            // 对 arr 进行拷贝，不改变参数内容
+            int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
+    
+            if (arr.length < 2) {
+                return arr;
+            }
+            int middle = (int) Math.floor(arr.length / 2);
+    
+            int[] left = Arrays.copyOfRange(arr, 0, middle);
+            int[] right = Arrays.copyOfRange(arr, middle, arr.length);
+    
+            return merge(sort(left), sort(right));
+        }
+    
+        protected int[] merge(int[] left, int[] right) {
+            int[] result = new int[left.length + right.length];
+            int i = 0;
+            while (left.length > 0 && right.length > 0) {
+                if (left[0] <= right[0]) {
+                    result[i++] = left[0];
+                    left = Arrays.copyOfRange(left, 1, left.length);
+                } else {
+                    result[i++] = right[0];
+                    right = Arrays.copyOfRange(right, 1, right.length);
+                }
+            }
+    
+            while (left.length > 0) {
+                result[i++] = left[0];
+                left = Arrays.copyOfRange(left, 1, left.length);
+            }
+    
+            while (right.length > 0) {
+                result[i++] = right[0];
+                right = Arrays.copyOfRange(right, 1, right.length);
+            }
+    
+            return result;
+        }
+    
+    }
+    ```
+    
+    > ### Algorithm steps
+    >
+    > 1. 申请空间，使其大小为两个已经排序序列之和，该空间用来存放合并后的序列；
+    > 2. 设定两个指针，最初位置分别为两个已经排序序列的起始位置；
+    > 3. 比较两个指针所指向的元素，选择相对小的元素放入到合并空间，并移动指针到下一位置；
+    > 4. 重复步骤 3 直到某一指针达到序列尾；
+    > 5. 将另一序列剩下的所有元素直接复制到合并序列尾。
 
 ### Selection Sort
 
-Selection sort loops over a list, finding the smallest unsorted item and swapping it with the leftmost unsorted item until all items have been sorted. It is relatively inefficient.
+> Selection sort loops over a list, finding the smallest unsorted item and swapping it with the leftmost unsorted item until all items have been sorted. It is relatively inefficient.
+>
+> 选择排序是一种简单直观的排序算法，无论什么数据进去都是 O(n²) 的时间复杂度。所以用到它的时候，数据规模越小越好。唯一的好处可能就是不占用额外的内存空间了吧。
 
-It has a time complexity of O(n2) and Ω(n2).
+> It has a time complexity of O(n2) and Ω(n2).
+
+- Oder of n2 (Worse case scenario - unsorted array)
+
+- Omega n2 (Best case scenario - sorted array)
+
+ ![img](https://www.runoob.com/wp-content/uploads/2019/03/selectionSort.gif)
+
+ ```java
+  public class SelectionSort implements IArraySort {
+  
+      @Override
+      public int[] sort(int[] sourceArray) throws Exception {
+          int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
+  
+          // 总共要经过 N-1 轮比较
+          for (int i = 0; i < arr.length - 1; i++) {
+              int min = i;
+  
+              // 每轮需要比较的次数 N-i
+              for (int j = i + 1; j < arr.length; j++) {
+                  if (arr[j] < arr[min]) {
+                      // 记录目前能找到的最小值元素的下标
+                      min = j;
+                  }
+              }
+  
+              // 将找到的最小值和i位置所在的值进行交换
+              if (i != min) {
+                  int tmp = arr[i];
+                  arr[i] = arr[min];
+                  arr[min] = tmp;
+              }
+  
+          }
+          return arr;
+      }
+  }
+ ```
+
+ > ### Algorithm steps
+ >
+ > First find the smallest (large) element in the unsorted sequence and store it at the beginning of the sorted sequence.
+ >
+ > Then find the smallest (large) element from the remaining unsorted elements and put it at the end of the sorted sequence.
+ >
+ > Repeat the second step until all elements are sorted.
 
 ### Bubble Sort
 
-Bubble sort loops over a list, compares two adjacent elements and swaps them if they are in the wrong order. The loop is repeated until the list is sorted. The largest values bubble up to the end of the list.
+> Bubble sort loops over a list, compares two adjacent elements and swaps them if they are in the wrong order. The loop is repeated until the list is sorted. The largest values bubble up to the end of the list.
+>
+> 冒泡排序（Bubble Sort）也是一种简单直观的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢"浮"到数列的顶端。
+>
+> It has a time complexity of O(n2) and Ω(n).  
 
-It has a time complexity of O(n2) and Ω(n).  
+- Oder of n2 (Worse case scenario - unsorted array)
+- Omega n (Best case scenario - sorted array)
+
+```java
+public class BubbleSort implements IArraySort {
+
+    @Override
+    public int[] sort(int[] sourceArray) throws Exception {
+        // 对 arr 进行拷贝，不改变参数内容
+        int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
+
+        for (int i = 1; i < arr.length; i++) {
+            // 设定一个标记，若为true，则表示此次循环没有进行交换，也就是待排序列已经有序，排序已经完成。
+            boolean flag = true;
+
+            for (int j = 0; j < arr.length - i; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+
+                    flag = false;
+                }
+            }
+
+            if (flag) {
+                break;
+            }
+        }
+        return arr;
+    }
+}
+```
+
+
+
+![img](https://www.runoob.com/wp-content/uploads/2019/03/bubbleSort.gif)
+
+> ### Algorithm steps
+>
+> Compare the adjacent elements. If the first is larger than the second, swap them both.
+>
+> Do the same for each pair of adjacent elements, from the first pair at the beginning to the last pair at the end. After this step is done, the last element will be the largest number.
+>
+> Repeat the above steps for all elements except the last one.
+>
+> Keep repeating the above steps for fewer and fewer elements at a time until there are no more pairs of numbers to compare.
 
 ## [Recursion](https://cs50.harvard.edu/x/2023/notes/3/#recursion)
 
