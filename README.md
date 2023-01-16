@@ -588,7 +588,7 @@ public class BubbleSort implements IArraySort {
 
 # ⛳[Week-4]() `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
 
-## Hexadecimal
+## [Hexadecimal](https://cs50.harvard.edu/x/2023/shorts/hexadecimal/)
 
 The hexadecimal system, aka base16 , is a much more concise way to express the data on a computer’s system.
 
@@ -597,8 +597,11 @@ The hexadecimal system, aka base16 , is a much more concise way to express the d
 ```
 Hexadecimal makes this mapping easy because a group of four binary digits (bits) is able has 16 different combinations, and each of those combinations maps to a single hexadecimal digit.
 
+## [Pointers](https://cs50.harvard.edu/x/2023/shorts/pointers/)
 
-## Pointers
+Pointers provide an alternative way to pass data between functions.
+
+## [Defining Custom Types](https://cs50.harvard.edu/x/2023/shorts/defining_custom_types/)
 
 ## [Dynamic Memory Allocation](https://cs50.harvard.edu/x/2023/shorts/dynamic_memory_allocation/)
 
@@ -617,6 +620,22 @@ Hexadecimal makes this mapping easy because a group of four binary digits (bits)
     - [recover](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/recover)
 
 # ⛳[Week-5]( ) `[Theme: Data Structures⚠]`
+
+## [Data Structures](https://cs50.harvard.edu/x/2023/shorts/data_structures/)
+
+## [Structures](https://cs50.harvard.edu/x/2023/shorts/structures/)
+
+## [Singly-Linked Lists](https://cs50.harvard.edu/x/2023/shorts/singly_linked_lists/)
+
+## [Doubly-Linked Lists](https://cs50.harvard.edu/x/2023/shorts/doubly_linked_lists/)
+
+## [Hash Tables](https://cs50.harvard.edu/x/2023/shorts/hash_tables/)
+
+## [Tries](https://cs50.harvard.edu/x/2023/shorts/tries/)
+
+## [Queues](https://cs50.harvard.edu/x/2023/shorts/queues/)
+
+## [Stacks](https://cs50.harvard.edu/x/2023/shorts/stacks/)
 
   - Lab
     - 
