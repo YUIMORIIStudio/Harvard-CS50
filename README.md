@@ -588,16 +588,33 @@ public class BubbleSort implements IArraySort {
 
 # ⛳[Week-4]() `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
 
+## Hexadecimal
+
+The hexadecimal system, aka base16 , is a much more concise way to express the data on a computer’s system.
+
+```bash
+0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+```
+Hexadecimal makes this mapping easy because a group of four binary digits (bits) is able has 16 different combinations, and each of those combinations maps to a single hexadecimal digit.
+
+
+## Pointers
+
+## [Dynamic Memory Allocation](https://cs50.harvard.edu/x/2023/shorts/dynamic_memory_allocation/)
+
+## [Call Stacks](https://cs50.harvard.edu/x/2023/shorts/call_stacks/)
+
+## [File Pointers](https://cs50.harvard.edu/x/2023/shorts/file_pointers/)
+
+## Custom Types
+
   - Lab
 
-    - 
-
+    - 💥[volumn](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/volume)
   - Problem set
 
-    - 💥
-
-      
-      
+    - [filter-less](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/fliter-less)
+    - [recover](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/recover)
 
 # ⛳[Week-5]( ) `[Theme: Data Structures⚠]`
 
