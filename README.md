@@ -532,8 +532,6 @@ int main(void)
 
 > Bubble sort loops over a list, compares two adjacent elements and swaps them if they are in the wrong order. The loop is repeated until the list is sorted. The largest values bubble up to the end of the list.
 >
-> 冒泡排序（Bubble Sort）也是一种简单直观的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢"浮"到数列的顶端。
->
 > It has a time complexity of O(n2) and Ω(n).  
 
 - Oder of n2 (Worse case scenario - unsorted array)
@@ -544,11 +542,11 @@ public class BubbleSort implements IArraySort {
 
     @Override
     public int[] sort(int[] sourceArray) throws Exception {
-        // 对 arr 进行拷贝，不改变参数内容
+ 
         int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
 
         for (int i = 1; i < arr.length; i++) {
-            // 设定一个标记，若为true，则表示此次循环没有进行交换，也就是待排序列已经有序，排序已经完成。
+ 
             boolean flag = true;
 
             for (int j = 0; j < arr.length - i; j++) {
