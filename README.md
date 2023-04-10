@@ -62,9 +62,9 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
 # ⛳[Week-5]( ) `[Theme: Data Structures⚠]`
 
   - Lab
-    - [inheritance](https://github.com/itsyuimorii/CS50x_2023_Harvard/blob/main/Week_05/submission/inheritance/inheritance.c)
+    - [inheritance](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/inheritance)
   - Problem set
-    - 💥
+    - 💥[speller](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/speller)
 
 # ⛳[Week-6]( ) `[Theme: Basics of Python, Forensics, Probability]`
 
