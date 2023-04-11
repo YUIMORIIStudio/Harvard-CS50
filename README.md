@@ -69,7 +69,7 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
 # ⛳[Week-6]( ) `[Theme: Basics of Python, Forensics, Probability]`
 
   - Lab
-    - 
+    - [Week_05/submission](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission)
   - Problem set
     - 
     - 
