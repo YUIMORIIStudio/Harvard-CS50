@@ -69,12 +69,9 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
 # ⛳[Week-6]( ) `[Theme: Basics of Python, Forensics, Probability]`
 
   - Lab
-    - World-Cup
+    - [World-Cup](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_06%20Python/submission/World-cup)
   - Problem set
-    - 
-    - 
-      - 
-      - 
+    - [Hello](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_06%20Python/submission/Hello)
     - 
 
 # ⛳[Week-7]() `[Theme: SQLite, Database querying, Crime Investigation]`
