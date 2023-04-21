@@ -11,7 +11,7 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
 ## Project: 
 
   - [Scratch Project](https://scratch.mit.edu/projects/)
->  Computer science is not so much about programming as it is about problem solving
+>  Computer science is not so much about programming as it is about problem solving.
 ## ⛳[Week-1](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1) `[Theme: Basics of C, Greedy Algorithm, Cryptography]`
 
 ## Project: 
