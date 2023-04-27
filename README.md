@@ -4,7 +4,7 @@ This course teaches you how to think algorithmically and solve problems efficien
 Enroll here: [CS50x](https://cs50.harvard.edu/x/2023/)
 Instructor: [David J. Malan](https://cs.harvard.edu/malan/) 
 
-# Notes📝 & Project🚀
+# Problem set🚀
 
 ## ⛳[Week-0]()  `[Theme: Basics of Programming]`
 
