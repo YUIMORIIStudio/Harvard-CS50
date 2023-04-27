@@ -34,18 +34,18 @@ This is CS50, Harvard University's introduction to the intellectual enterprises 
     - Mario🏰
       - [Mario-less](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/mario-less)
       - [Mario-more](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/mario-more)
-    - [cash💰](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/cash)
-    - [credit🏦](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission /credit)
+    - [Cash💰](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/cash)
+    - [Credit🏦]()
     
     
 
 ⛳[Week-2](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_2)`[Theme: Arrays, Cryptography, Encryption]`
 
 - Lab
-  - [scrabble](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/scrabble)
+  - [Scrabble](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/scrabble)
 - Problem set
-  - [readability📚](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/readability)
-  - [substitution🕊️](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/substitution)
+  - [Readability📚](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/readability)
+  - [Substitution🕊️](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/substitution)
   
   
 
@@ -54,8 +54,8 @@ This is CS50, Harvard University's introduction to the intellectual enterprises 
   - Lab
     - [Sort❓]( )
   - Problem set
-    - [Plurality]( )
-    - [Runoff]( )
+    - [Plurality🌐]( )
+    - [Runoff🏃]( )
     
     
 
@@ -63,20 +63,20 @@ This is CS50, Harvard University's introduction to the intellectual enterprises 
 
   - Lab
 
-    - [volumn🎧](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/volume)
+    - [Volumn🎧](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/volume)
   - Problem set
 
-    - [filter-less](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/fliter-less)
-    - [recover](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/recover)
+    - [Filter-less](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/fliter-less)
+    - [Recover](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/recover)
 
 
 
 ⛳[Week-5]( ) `[Theme: Data Structures⚠]`
 
   - Lab
-    - [inheritance](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/inheritance)
+    - [Inheritance](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/inheritance)
   - Problem set
-    - [speller](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/speller)
+    - [Speller](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/speller)
 
 
 
@@ -86,9 +86,9 @@ This is CS50, Harvard University's introduction to the intellectual enterprises 
     - [World-Cup⚽️](https://github.com/me50/itsyuimorii/tree/cs50/labs/2022/fall/worldcup)
   - Problem set
     - [Hello👋🏻](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_06%20Python/submission/Hello)
-    - [Mario-more](https://github.com/me50/itsyuimorii/tree/ba2fdf770c9d437bf92491cc24a744ea9b50f083)
-    - Credit
-    - Readability
+    - [Mario-more🏰](https://github.com/me50/itsyuimorii/tree/ba2fdf770c9d437bf92491cc24a744ea9b50f083)
+    - Credit💰
+    - Readability📚
     - [DNA🧬]()
 
 
@@ -96,12 +96,10 @@ This is CS50, Harvard University's introduction to the intellectual enterprises 
 ⛳[Week-7]() `[Theme: SQLite, Database querying, Crime Investigation]`
 
   - Lab
-    - 
+    - Song🎶
   - Problem set
-    - 
-    - 
-
-
+    - Movies🎞️
+    - Fiftyville🕵️ 
 
 ⛳[Week-8]() `[Theme: Basics of HTML, CSS, Javascript, DOM]`
 
