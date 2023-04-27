@@ -1,4 +1,4 @@
-# ⛺️ CS50x_2023_Harvard 
+# ⛺️ [CS50x_2023_Harvard](https://cs50.harvard.edu/x/2023/)
 
 ## Introduction to Computer Science
 
@@ -6,22 +6,26 @@ This is CS50, Harvard University's introduction to the intellectual enterprises 
 
 ## Disclaimer
 
-> A quick word on [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/). While these solutions will help you to get through the course without too much effort, you should do your best to figure out a working solution yourself before taking a look at any of my solutions. Investing your time and energy into solving the problem sets yourself is in my opinion the only way to eventual mastery. Go ahead and take a peek at the solutions, and remember to have fun.
+> A quick word on [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/). While these solutions will help you to get through the course without too much effort, you should do your best to figure out a **working solution yourself** before taking a look at any of my solutions. Investing your time and energy into solving the problem sets yourself is in my opinion the only way to eventual mastery. Go ahead and take a peek at the solutions, and remember to have fun.
 
 ## Introduction To Computer Science
 
-> This course teaches you how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python, SQL, and JavaScript plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Designed for concentrators and non-concentrators alike, with or without prior programming experience. 
+> This course teaches you how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include **C, Python, SQL, and JavaScript plus CSS and HTML**. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Designed for concentrators and non-concentrators alike, with or without prior programming experience. 
 
 #### Every Lab and PSet achieved 100% when submitted
+
+***For answers to other questions, do just ask in any of CS50’s [communities](https://cs50.harvard.edu/x/2023/communities/)!***
+
+
 
 ## Problem set🚀
 
 ⛳[Week-0]()  `[Theme: Basics of Programming]`
 
-## Project: 
-
   - [Scratch Project](https://scratch.mit.edu/projects/)
->  Computer science is not so much about programming as it is about problem solving.
+
+
+
 ⛳[Week-1](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1) `[Theme: Basics of C, Greedy Algorithm, Cryptography]`
 
   - Lab
@@ -32,6 +36,8 @@ This is CS50, Harvard University's introduction to the intellectual enterprises 
       - [Mario-more](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/mario-more)
     - [cash💰](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/cash)
     - [credit🏦](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission /credit)
+    
+    
 
 ⛳[Week-2](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_2)`[Theme: Arrays, Cryptography, Encryption]`
 
