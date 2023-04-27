@@ -35,7 +35,7 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
   - [readability](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/readability)
   - [substitution](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/substitution)
 
-# ⛳[Week-3]() `[Theme: Algorithms, Graph Theory Basics]`
+## ⛳[Week-3]() `[Theme: Algorithms, Graph Theory Basics]`
 
 ## Project
 
@@ -47,7 +47,7 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
 
 
 
-# ⛳[Week-4]() `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
+## ⛳[Week-4]() `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
 
 ## 
 
@@ -59,14 +59,14 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
     - [filter-less](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/fliter-less)
     - [recover](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/recover)
 
-# ⛳[Week-5]( ) `[Theme: Data Structures⚠]`
+## ⛳[Week-5]( ) `[Theme: Data Structures⚠]`
 
   - Lab
     - [inheritance](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/inheritance)
   - Problem set
     - 💥[speller](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/speller)
 
-# ⛳[Week-6]( ) `[Theme: Basics of Python, Forensics, Probability]`
+## ⛳[Week-6]( ) `[Theme: Basics of Python, Forensics, Probability]`
 
   - Lab
     - [World-Cup](https://github.com/me50/itsyuimorii/tree/cs50/labs/2022/fall/worldcup)
@@ -77,7 +77,7 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
     - Readability
     - DNA
 
-# ⛳[Week-7]() `[Theme: SQLite, Database querying, Crime Investigation]`
+## ⛳[Week-7]() `[Theme: SQLite, Database querying, Crime Investigation]`
 
   - Lab
     - 
@@ -85,14 +85,14 @@ Instructor: [David J. Malan](https://cs.harvard.edu/malan/)
     - 
     - 💥
 
-# ⛳[Week-8]() `[Theme: Basics of HTML, CSS, Javascript, DOM]`
+## ⛳[Week-8]() `[Theme: Basics of HTML, CSS, Javascript, DOM]`
 
   - Lab
     - 
   - Problem set
     - 
 
-# ⛳[Week-9]() `[Theme: Flask, Python revisited, Jinja, Equity Markets(Stocks)]`
+## ⛳[Week-9]() `[Theme: Flask, Python revisited, Jinja, Equity Markets(Stocks)]`
 
   - Lab
     - 
