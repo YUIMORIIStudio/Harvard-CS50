@@ -63,20 +63,20 @@ This is CS50, Harvard University's introduction to the intellectual enterprises 
 
   - Lab
 
-    - [Volumn🎧](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/volume)
+    - [Volumn🎧](https://github.com/me50/itsyuimorii/tree/46cfc1ef7b8084bcf334afde3f38402b399a041c)
   - Problem set
 
-    - [Filter-less](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/fliter-less)
-    - [Recover](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week04/Submission/recover)
+    - [Filter-less](https://github.com/me50/itsyuimorii/tree/017435c6552ae14738b66d765ac3e82983946e98)
+    - [Recover](https://github.com/me50/itsyuimorii/tree/523fac27b667adf6eb7d7aa9896478e85e0d799e)
 
 
 
 ⛳[Week-5]( ) `[Theme: Data Structures⚠]`
 
   - Lab
-    - [Inheritance](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/inheritance)
+    - [Inheritance](https://github.com/me50/itsyuimorii/tree/271275f2a14a10e3f373f9bfe059f57d7ec59ced)
   - Problem set
-    - [Speller](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_05/submission/speller)
+    - [Speller](https://github.com/me50/itsyuimorii/tree/9604ad427363472825ec0822ed57f8a29348b305)
 
 
 
@@ -85,18 +85,18 @@ This is CS50, Harvard University's introduction to the intellectual enterprises 
   - Lab
     - [World-Cup⚽️](https://github.com/me50/itsyuimorii/tree/cs50/labs/2022/fall/worldcup)
   - Problem set
-    - [Hello👋🏻](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/Week_06%20Python/submission/Hello)
+    - [Hello👋🏻](https://github.com/me50/itsyuimorii/tree/48dfc01731653bfe19b13c8e2656327605ec0582)
     - [Mario-more🏰](https://github.com/me50/itsyuimorii/tree/ba2fdf770c9d437bf92491cc24a744ea9b50f083)
-    - Credit💰
-    - Readability📚
-    - [DNA🧬]()
+    - [Credit💰](https://github.com/me50/itsyuimorii/tree/9d1cc0cafe6e9185f0b25a94d428d3067bc09be6)
+    - [Readability📚](https://github.com/me50/itsyuimorii/tree/b57461a3b41c7e152432dc968d2e3dccb262ae94)
+    - [DNA🧬](https://github.com/me50/itsyuimorii/tree/5cc7ee7e58bcfdcf9f5bf2cc093aa8d0b9b79f17)
 
 
 
 ⛳[Week-7]() `[Theme: SQLite, Database querying, Crime Investigation]`
 
   - Lab
-    - Song🎶
+    - [Song🎶](https://github.com/me50/itsyuimorii/tree/99a26ad2d8ce18f34bd3ac524795f96dfc6b385f)
   - Problem set
     - Movies🎞️
     - Fiftyville🕵️ 
