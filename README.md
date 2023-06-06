@@ -12,116 +12,28 @@
 </div>
 
 
+⚖️ [<em>Academical honesty</em>](https://cs50.harvard.edu/x/2023/honesty/)
+
+
 
 This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
 
-## Disclaimer
 
-> A quick word on [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/). While these solutions will help you to get through the course without too much effort, you should do your best to figure out a **working solution yourself** before taking a look at any of my solutions. Investing your time and energy into solving the problem sets yourself is in my opinion the only way to eventual mastery. Go ahead and take a peek at the solutions, and remember to have fun.
+<div align="center">
 
-## Introduction To Computer Science
-
-> This course teaches you how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include **C, Python, SQL, and JavaScript plus CSS and HTML**. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Designed for concentrators and non-concentrators alike, with or without prior programming experience. 
-
-#### Every Lab and PSet achieved 100% when submitted
-
-***For answers to other questions, do just ask in any of CS50’s [communities](https://cs50.harvard.edu/x/2023/communities/)!***
-
-
-
-## Problem set🚀
-
-⛳[Week-0]()  `[Theme: Basics of Programming]`
-
-  - [Scratch Project](https://scratch.mit.edu/projects/)
+|Weeks|Topic|Problem Sets|
+|-----|-----------|----|
+|Week 0 | Functions / Variables|[Indoor Voice](https://github.com/5ah1n/CS50_Python/blob/main/tasks/indoor/indoor.py) - [Playback](https://github.com/5ah1n/CS50_Python/blob/main/tasks/playback/playback.py) - [Faces](https://github.com/5ah1n/CS50_Python/blob/main/tasks/faces/faces.py) - [Einstein](https://github.com/5ah1n/CS50_Python/blob/main/tasks/einstein/einstein.py) - [Tip Calculator](https://github.com/5ah1n/CS50_Python/blob/main/tasks/tip/tip.py)|
+|Week 1| Conditionals |[Deep Thought](https://github.com/5ah1n/CS50_Python/blob/main/tasks/deep/deep.py) - [Home Federal Savings Bank](https://github.com/5ah1n/CS50_Python/blob/main/tasks/bank/bank.py) - [File Extensions](https://github.com/5ah1n/CS50_Python/blob/main/tasks/extensions/extensions.py) - [Math Interpreter](https://github.com/5ah1n/CS50_Python/blob/main/tasks/interpreter/interpreter.py) - [Meal Time](https://github.com/5ah1n/CS50_Python/blob/main/tasks/meal/meal.py)
+|Week 2 | Loops |[camelCase](https://github.com/5ah1n/CS50_Python/blob/main/tasks/camel/camel.py) - [Coke Machine](https://github.com/5ah1n/CS50_Python/blob/main/tasks/coke/coke.py) - [ Just setting up my twttr](https://github.com/5ah1n/CS50_Python/blob/main/tasks/twttr/twttr.py) - [Vanity Plates](https://github.com/5ah1n/CS50_Python/blob/main/tasks/plates/plates.py) - [Nutrition Facts](https://github.com/5ah1n/CS50_Python/blob/main/tasks/nutrition/nutrition.py)|
+|Week 3| Exceptions | [Fuel Gauge](https://github.com/5ah1n/CS50_Python/blob/main/tasks/fuel/fuel.py) - [Felipe’s Taqueria](https://github.com/5ah1n/CS50_Python/blob/main/tasks/taqueria/taqueria.py) - [Grocery List](https://github.com/5ah1n/CS50_Python/blob/main/tasks/grocery/grocery.py) - [Outdated](https://github.com/5ah1n/CS50_Python/blob/main/tasks/outdated/outdated.py)|
+|Week 4 | Libraries | [Emojize](https://github.com/5ah1n/CS50_Python/blob/main/tasks/emojize/emojize.py) - [Frank, Ian and Glen’s Letters](https://github.com/5ah1n/CS50_Python/blob/main/tasks/figlet/figlet.py) - [Adieu, Adieu](https://github.com/5ah1n/CS50_Python/blob/main/tasks/adieu/adieu.py) - [Guessing Game](https://github.com/5ah1n/CS50_Python/blob/main/tasks/game/game.py) - [Little Professor](https://github.com/5ah1n/CS50_Python/blob/main/tasks/professor/professor.py) - [Bitcoin Price Index](https://github.com/5ah1n/CS50_Python/blob/main/tasks/bitcoin/bitcoin.py)
+| Week 5 | Unit Tests | [Testing my twittr](https://github.com/5ah1n/CS50_Python/blob/main/tasks/twttr/twttr.py) - [Back to the Bank](https://github.com/5ah1n/CS50_Python/blob/main/tasks/bank/bank.py) - [Re-requesting a Vanity Plate](https://github.com/5ah1n/CS50_Python/blob/main/tasks/plates/plates.py) - [Refueling](https://github.com/5ah1n/CS50_Python/blob/main/tasks/fuel/fuel.py)|
+|Week 6 | File I/O | [Lines of Code](https://github.com/5ah1n/CS50_Python/tree/main/tasks/lines) - [Pizza Py](https://github.com/5ah1n/CS50_Python/tree/main/tasks/pizza) - [Scourgify](https://github.com/5ah1n/CS50_Python/blob/main/tasks/scourgify/scourgify.py) - [CS50 P-Shirt](https://github.com/5ah1n/CS50_Python/blob/main/tasks/shirt/shirt.py)
+|Week 7 | Regular Expressions | [NUMB3RS](https://github.com/5ah1n/CS50_Python/blob/main/tasks/numb3rs/numb3rs) - [Watch on YouTube](https://github.com/5ah1n/CS50_Python/blob/main/tasks/watch/watch.py) - [Working 9 to 5](https://github.com/5ah1n/CS50_Python/tree/main/tasks/working) - [Regular, um, Expressions](https://github.com/5ah1n/CS50_Python/tree/main/tasks/um) - [Response Validation](https://github.com/5ah1n/CS50_Python/blob/main/tasks/response/response.py)
+|Week 8 | OOP | [Seasons of Love](https://github.com/5ah1n/CS50_Python/tree/main/tasks/seasons) - [Cookie Jar](https://github.com/5ah1n/CS50_Python/tree/main/tasks/jar) - [CS50 Shirtificate](https://github.com/5ah1n/CS50_Python/blob/main/tasks/shirtificate/shirtificate.py)
+|Week 9 | ET Cetera | [Final Project](https://github.com/5ah1n/CS50_Python/tree/main/tasks/project)
 
 
 
-⛳[Week-1](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1) `[Theme: Basics of C, Greedy Algorithm, Cryptography]`
 
-  - Lab
-    - [Population👯‍♀️](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/population)
-  - Problem set
-    - Mario🏰
-      - [Mario-less](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/mario-less)
-      - [Mario-more](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/mario-more)
-    - [Cash💰](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_1/Submission%20/cash)
-    - [Credit🏦]()
-    
-    
-
-⛳[Week-2](https://github.com/itsyuimorii/CS50x_2023_Harvard/tree/main/lecture_2)`[Theme: Arrays, Cryptography, Encryption]`
-
-- Lab
-  - [Scrabble](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/scrabble)
-- Problem set
-  - [Readability📚](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/readability)
-  - [Substitution🕊️](https://github.com/itsyuimorii/Harvard-CS50/tree/main/lecture_2/Submission/substitution)
-  
-  
-
-⛳[Week-3]() `[Theme: Algorithms, Graph Theory Basics]`
-
-  - Lab
-    - [Sort❓]( )
-  - Problem set
-    - [Plurality🌐]( )
-    - [Runoff🏃]( )
-    
-    
-
-⛳[Week-4]() `[Theme: Memory organization, Pointers⚠, Image filters, File manipulation & Data Recovery]`
-
-  - Lab
-
-    - [Volumn🎧](https://github.com/me50/itsyuimorii/tree/46cfc1ef7b8084bcf334afde3f38402b399a041c)
-  - Problem set
-
-    - [Filter-less](https://github.com/me50/itsyuimorii/tree/017435c6552ae14738b66d765ac3e82983946e98)
-    - [Recover](https://github.com/me50/itsyuimorii/tree/523fac27b667adf6eb7d7aa9896478e85e0d799e)
-
-
-
-⛳[Week-5]( ) `[Theme: Data Structures⚠]`
-
-  - Lab
-    - [Inheritance](https://github.com/me50/itsyuimorii/tree/271275f2a14a10e3f373f9bfe059f57d7ec59ced)
-  - Problem set
-    - [Speller](https://github.com/me50/itsyuimorii/tree/9604ad427363472825ec0822ed57f8a29348b305)
-
-
-
-⛳[Week-6]( ) `[Theme: Basics of Python, Forensics, Probability]`
-
-  - Lab
-    - [World-Cup⚽️](https://github.com/me50/itsyuimorii/tree/cs50/labs/2022/fall/worldcup)
-  - Problem set
-    - [Hello👋🏻](https://github.com/me50/itsyuimorii/tree/48dfc01731653bfe19b13c8e2656327605ec0582)
-    - [Mario-more🏰](https://github.com/me50/itsyuimorii/tree/ba2fdf770c9d437bf92491cc24a744ea9b50f083)
-    - [Credit💰](https://github.com/me50/itsyuimorii/tree/9d1cc0cafe6e9185f0b25a94d428d3067bc09be6)
-    - [Readability📚](https://github.com/me50/itsyuimorii/tree/b57461a3b41c7e152432dc968d2e3dccb262ae94)
-    - [DNA🧬](https://github.com/me50/itsyuimorii/tree/5cc7ee7e58bcfdcf9f5bf2cc093aa8d0b9b79f17)
-
-
-
-⛳[Week-7]() `[Theme: SQLite, Database querying, Crime Investigation]`
-
-  - Lab
-    - [Song🎶](https://github.com/me50/itsyuimorii/tree/99a26ad2d8ce18f34bd3ac524795f96dfc6b385f)
-  - Problem set
-    - [Movies🎞️](https://github.com/me50/itsyuimorii/tree/6ee908d930ce32ab79729eb8257a9f1bf9d7eba9)
-    - [Fiftyville🕵️ ](https://github.com/me50/itsyuimorii/tree/cs50/problems/2023/x/fiftyville)
-
-⛳[Week-8]() `[Theme: Basics of HTML, CSS, Javascript, DOM]`
-
-  - Lab
-    - 
-  - Problem set
-    - 
-
-⛳[Week-9]() `[Theme: Flask, Python revisited, Jinja, Equity Markets(Stocks)]`
-
-  - Lab
-    - 
-  - Problem set
-    - 
