@@ -1,382 +1,103 @@
 <!DOCTYPE html>
-
-<html lang="en">
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-        <link href="styles.css" rel="stylesheet">
-        <title>UX Design Glossary</title>
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-  const navbar = document.getElementById("navbar");
-
-  navbar.addEventListener("click", function(event) {
-    event.preventDefault();
-    if (event.target.tagName === "A") {
-      const targetSection = event.target.getAttribute("href");
-      scrollToSection(targetSection);
+<html>
+<head>
+  <title>itsyuimoriispace</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  <style>
+    .about-section {
+      background-color: #f7f7f7;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-  });
 
-  function scrollToSection(sectionId) {
-    const targetSection = document.querySelector("#main-doc " + sectionId);
-    if (targetSection) {
-      targetSection.scrollIntoView({ behavior: "smooth" });
+    .project-section {
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-  }
-});
 
-         </script>
-    </head>
-    <body>
+    .project-preview {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
 
-        <nav id="navbar">
-            <header>laws of UX</header>
-            <ul>
-                <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-                <li>
-                    <a class="nav-link" href="#What_is_UX_Laws">What is UX laws</a>
-                </li>
-                <li><a class="nav-link" href="#Aesthetic_Usability_Effect">Aesthetic Usability Effect</a></li>
-                <li><a class="nav-link" href="#Doherty_Threshold">Doherty Threshold</a></li>
-                <li>
-                    <a class="nav-link" href="#Fitts_Law">Fitts Law</a>
-                </li>
-                <li><a class="nav-link" href="#Goal_Gradient_Effect">Goal Gradient Effect
-                </a></li>
-                <li><a class="nav-link" href="#Hick_Law">Hick Law</a></li>
-                <li><a class="nav-link" href="#Jakob_Law">Jakob Law</a></li>
-                <li><a class="nav-link" href="#Miller_Law">Miller Law</a></li>
-                <li><a class="nav-link" href="#Occam_Razor">Occam Razor</a></li>
-                <li><a class="nav-link" href="#Pareto_Principle">Pareto Principle
-                </a></li>
-                <li><a class="nav-link" href="#Parkinson_Law">Parkinson Law</a></li>
-                <li><a class="nav-link" href="#Peak_End_Rule">Peak End Rule</a></li>
-                <li><a class="nav-link" href="#Postel_Law">Postel Law</a></li>
-                <li><a class="nav-link" href="#Serial_Position_Effect">Serial Position Effect</a></li>
-                <li><a class="nav-link" href="#Tesler_Law">Tesler Law</a></li>
-                <li><a class="nav-link" href="#Zeigarnik_Effect">Zeigarnik Effect</a></li>
-                <li><a class="nav-link" href="#Von_Restorff_Effect">Von Restorff Effect</a></li>
-            </ul>
-        </nav>
-        <main id="main-doc">
+    .project-preview img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
 
-            <section class="main-section" id="Introduction">
-                <header>Introduction</header>
-                <article>
-                    <p>Laws of UX is a collection of best practices that designers can consider when building user interfaces.</p>
-                </article>
-            </section>
+    .project-preview .project-info {
+      text-align: center;
+      width: 200px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
 
-            <section class="main-section" id="What_is_UX_Laws">
-                <header>What is UX Laws</header>
-                <article>
-                    <p>Laws of UX are focused on making complex psychology heuristics accessible to more designers through an interactive resource that collects those that are relevant to user experience design.
-                    </p>
-                    <ul>
-                        <li>As humans, we have an underlying “blueprint” for how we perceive and process the world around us, and the study of psychology helps us decipher this blueprint. </li>
-                        <li>Designers can use this knowledge to build more intuitive, human-centered products and experiences.</li>
-                        <li>Instead of forcing users to adapt to the design of a product or experience, we can use some key principles from psychology as a guide for designing in a way that is adapted to people.</li>
-                    </ul>
-                </article>
-            </section>
-            <section class="main-section" id="Aesthetic_Usability_Effect">
-                <header>Aesthetic Usability Effect</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>Users often perceive aesthetically pleasing design as design that’s more usable.</code>
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>An aesthetically pleasing design creates a positive response in people’s brains and leads them to believe the design actually works better.</li>
-                        <li>People are more tolerant of minor usability issues when the design of a product or service is aesthetically pleasing.</li>
-                        <li>Visually pleasing design can mask usability problems and prevent issues from being discovered during usability testing.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>The aesthetic-usability effect was first studied in the field of human–computer interaction in 1995. Researchers Masaaki Kurosu and Kaori Kashimura from the Hitachi Design Center tested 26 variations of an ATM UI, asking the 252 study
-                        participants to rate each design on ease of use, as well as aesthetic appeal.They found a stronger correlation between the participants’ ratings of aesthetic appeal and perceived ease of use than the correlation between their ratings
-                        of aesthetic appeal and actual ease of use. Kurosu and Kashimura concluded that users are strongly influenced by the aesthetics of any given interface, even when they try to evaluate the underlying functionality of the system.</p>
+  <div class="content">
+    <div class="about-section">
+      <h2>About</h2>
+      <p>Welcome to my personal website, where I showcase my passion for architecture and design. With years of experience in the industry, I strive to create innovative and sustainable solutions that enhance the built environment. Explore my projects below to get a glimpse into my architectural journey.</p>
+    </div>
 
-                </article>
-            </section>
-            <section class="main-section" id="Doherty_Threshold">
-                <header>Doherty Threshold</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>Productivity soars when a computer and its users interact at a pace that ensures that neither has to wait a on the other.</code>
+    <div class="project-section">
+      <h2>Projects</h2>
+      <div class="project-preview">
+        <div class="project-info">
+          <a href="project.html"><img src="project1.jpg" alt="Project 1"></a>
+          <h3>Architectural Visualization</h3>
+          <p>Experience the future of architecture through immersive 3D visualizations. Our project showcases the fusion of art and technology to bring architectural designs to life. Explore the intricate details and spatial arrangements in a virtual environment.</p>
+        </div>
+        <div class="project-info">
+          <a href="project.html"><img src="project2.jpg" alt="Project 2"></a>
+          <h3>Sustainable Green Building</h3>
+          <p>Discover our innovative approach to sustainable architecture and green building practices. This project highlights our commitment to creating environmentally friendly structures that harmonize with nature. Explore the integration of renewable energy, eco-friendly materials, and efficient design principles.</p>
+        </div>
+        <div class="project-info">
+          <a href="project.html"><img src="project3.jpg" alt="Project 3"></a>
+          <h3>Urban Redevelopment</h3>
+          <p>Witness the transformation of urban spaces through our urban redevelopment project. Experience the revitalization of neglected areas into vibrant and livable communities. This project showcases our expertise in urban planning, architecture, and community-driven design to create sustainable and inclusive urban environments.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Provide system feedback within 400 ms in order to keep users’ attention and increase productivity.</li>
-                        <li>Use perceived performance to improve response time and reduce the perception of waiting.</li>
-                        <li>Animation is one way to visually engage people while loading or processing is happening in the background.
-                        </li>
-                        <li>Progress bars help make wait times tolerable, regardless of their accuracy.</li>
-                        <li>Purposefully adding a delay to a process can actually increase its perceived value and instill a sense of trust, even when the process itself actually takes much less time.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>In 1982 Walter J. Doherty and Ahrvind J. Thadani published, in the IBM Systems Journal, a research paper that set the requirement for computer response time to be 400 milliseconds, not 2,000 (2 seconds) which had been the previous standard.
-                        When a human being’s command was executed and returned an answer In under 400 milliseconds, it was deemed to exceed the Doherty threshold, and use of such applications were deemed to be “addicting” to users.</p>
+  <script>
+    // 使用 JavaScript 動態生成 project 的縮略內容
+    const projects = [
+      {
+        title: "Project 1",
+        description: "This is the description of Project 1."
+      },
+      {
+        title: "Project 2",
+        description: "This is the description of Project 2."
+      },
+      {
+        title: "Project 3",
+        description: "This is the description of Project 3."
+      }
+    ];
 
-                </article>
-            </section>
-            <section class="main-section" id="Fitts_Law">
-                <header>Fitts Law</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>The time to acquire a target is a function of the distance to and size of the target.</code>
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Touch targets should be large enough for users to accurately select them.</li>
-                        <li>Touch targets should have ample spacing between them.</li>
-                        <li>Touch targets should be placed in areas of an interface that allow them to be easily acquired.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>In 1954, psychologist Paul Fitts, examining the human motor system, showed that the time required to move to a target depends on the distance to it, yet relates inversely to its size. By his law, fast movements and small targets result
-                        in greater error rates, due to the speed-accuracy trade-off. Although multiple variants of Fitts’ law exist, all encompass this idea. Fitts’ law is widely applied in user experience (UX) and user interface (UI) design. For example,
-                        this law influenced the convention of making interactive buttons large (especially on finger-operated mobile devices)—smaller buttons are more difficult (and time-consuming) to click. Likewise, the distance between a user’s task/attention
-                        area and the task-related button should be kept as short as possible.</p>
-
-                </article>
-            </section>
-            <section class="main-section" id="Goal_Gradient_Effect">
-                <header>Goal Gradient Effect</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>The tendency to approach a goal increases with proximity to the goal.</code>
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Providing artificial progress towards a goal will help to ensure users are more likley to have the motivation to complete that task.</li>
-                        <li>The closer users are to completing a task, the faster they work towards reaching it.</li>
-                        <li>Motivation can be enhanced by visually representing progress and completion, e.g. progress bars.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>The goal-gradient hypothesis, originally proposed by the behaviorist Clark Hull in 1932, states that the tendency to approach a goal increases with proximity to the goal. In a classic experiment that tests this hypothesis, Hull (1934)
-                        found that rats in a straight alley ran progressively faster as they proceeded from the starting box to the food. Although the goal-gradient hypothesis has been investigated exten-sively with animals (e.g., Anderson 1933; Brown 1948;
-                        for a review, see Heilizer 1977), its implications for human behavior and decision making are understudied. Further-more, this issue has important theoretical and practical implications for intertemporal consumer behavior in reward
-                        programs (hereinafter RPs) and other types of motivational systems (e.g., Deighton 2000; Hsee, Yu, and Zhang 2003; Kivetz 2003; Lal and Bell 2003).</p>
-                </article>
-
-            </section>
-            <section class="main-section" id="Hick_Law">
-                <header>Hick Law</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>The time it takes to make a decision increases with the number and complexity of choices.</code>
-
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Minimize choices when response times are critical to increase decision time.</li>
-                        <li> times are critical to increase decision time. Break complex tasks into smaller steps in order to decrease cognitive load.</li>
-                        <li>Avoid overwhelming users by highlighting recommended options.</li>
-                        <li>Use progressive onboarding to minimize cognitive load for new users.</li>
-                        <li>Be careful not to simplify to the point of abstraction.</li>
-                    </ul>
-                    <h2>Origin</h2>
-
-                    <p>
-                        Hick’s Law (or the Hick-Hyman Law) is named after a British and an American psychologist team of William Edmund Hick and Ray Hyman. In 1952, this pair set out to examine the relationship between the number of stimuli present and an individual’s reaction
-                        time to any given stimulus. As you would expect, the more stimuli to choose from, the longer it takes the user to make a decision on which one to interact with. Users bombarded with choices have to take time to interpret and decide,
-                        giving them work they don’t want.</p>
-
-
-                </article>
-
-            </section>
-            <section class="main-section" id="Jakob_Law">
-                <header>Jakob Law</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.</code>
-
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Users will transfer expectations they have built around one familiar product to another that appears similar.</li>
-                        <li>By leveraging existing mental models, we can create superior user experiences in which the users can focus on their tasks rather than on learning new models.</li>
-                        <li>When making changes, minimize discord by empowering users to continue using a familiar version for a limited time.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>Jakob’s Law was coined by Jakob Nielsen, a User Advocate and principal of the Nielsen Norman Group which he co-founded with Dr. Donald A. Norman (former VP of research at Apple Computer). Dr. Nielsen established the ‘discount usability
-                        engineering’ movement for fast and cheap improvements of user interfaces and has invented several usability methods, including heuristic evaluation.</p>
-
-                </article>
-            </section>
-
-
-            <section class="main-section" id="Miller_Law">
-                <header>Miller Law</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>The average person can only keep 7 (plus or minus 2) items in their working memory.</code>
-
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Don’t use the “magical number seven” to justify unnecessary design limitations.</li>
-                        <li>Organize content into smaller chunks to help users process, understand, and memorize easily.</li>
-                        <li>Remember that short-term memory capacity will vary per individual, based on their prior knowledge and situational context.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>In 1956, George Miller asserted that the span of immediate memory and absolute judgment were both limited to around 7 pieces of information. The main unit of information is the bit, the amount of data necessary to make a choice between
-                        two equally likely alternatives. Likewise, 4 bits of information is a decision between 16 binary alternatives (4 successive binary decisions). The point where confusion creates an incorrect judgment is the channel capacity. In other
-                        words, the quantity of bits which can be transmitted reliably through a channel, within a certain amount of time.</p>
-                </article>
-            </section>
-            <section class="main-section" id="Occam_Razor">
-                <header>Occam Razor</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>Among competing hypotheses that predict equally well, he one with the fewest assumptions should be selected.    </code>
-
-
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>The best method for reducing complexity is to avoid it in the first place.</li>
-                        <li>Analyze each element and remove as many as possible, without compromising the overall function.</li>
-                        <li>Consider completion only when no additional items can be removed.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>Occam’s razor (also Ockham’s razor; Latin: lex parsimoniae "law of parsimony") is a problem-solving principle that, when presented with competing hypothetical answers to a problem, one should select the one that makes the fewest assumptions.
-                        The idea is attributed to William of Ockham (c. 1287–1347), who was an English Franciscan friar, scholastic philosopher, and theologian.</p>
-
-                </article>
-            </section>
-            <section class="main-section" id="Pareto_Principle">
-                <header>Pareto Principle</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>The Pareto principle states that, for many events, roughly 80% of the effects come from 20% of the causes.</code>
-
-
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Focus the majority of effort on the areas that will bring the largest benefits to the most users.</li>
-                    </ul>
-
-                </article>
-            </section>
-
-            <section class="main-section" id="Parkinson_Law">
-                <header>Parkinson Law</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>Any task will inflate until all of the available time is spent.</code>
-
-                    <h2>Takeaways</h2>
-                    <p>Articulated by Cyril Northcote Parkinson as part of the first sentence of a humorous essay published in The Economist in 1955 and since republished online, it was reprinted with other essays in the book Parkinson’s Law: The Pursuit of
-                        Progress (London, John Murray, 1958). He derived the dictum from his extensive experience in the British Civil Service.</p>
-                </article>
-            </section>
-            <section class="main-section" id="Peak_End_Rule">
-                <header>Peak End Rule</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.</code>
-
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Pay close attention to the most intense points and the final moments (the “end”) of the user journey.</li>
-                        <li>Identify the moments when your product is most helpful, valuable, or entertaining and design to delight the end user.</li>
-                        <li>Remember that people recall negative experiences more vividly than positive ones.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>A 1993 study titled “When More Pain Is Preferred to Less: Adding a Better End” by Kahneman, Fredrickson, Charles Schreiber, and Donald Redelmeier provided groundbreaking evidence for the peak–end rule. Participants were subjected to two
-                        different versions of a single unpleasant experience. The first trial had subjects submerge a hand in 14°C water for 60 seconds. The second trial had subjects submerge the other hand in 14°C water for 60 seconds, but then keep their
-                        hand submerged for an additional 30 seconds, during which the temperature was raised to 15 °C. Subjects were then offered the option of which trial to repeat. Against the law of temporal monotonicity, subjects were more willing to
-                        repeat the second trial, despite a prolonged exposure to uncomfortable temperatures. Kahneman et al. concluded that “subjects chose the long trial simply because they liked the memory of it better than the alternative (or disliked
-                        it less)”.</p>
-                </article>
-            </section>
-            <section class="main-section" id="Postel_Law">
-                <header>Postel Law</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>Be liberal in what you accept, and conservative in what you send.</code>
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Be empathetic to, flexible about, and tolerant of any of the various actions the user could take or any input they might provide.</li>
-                        <li>Anticipate virtually anything in terms of input, access, and capability while providing a reliable and accessible interface.</li>
-                        <li>The more we can anticipate and plan for in design, the more resilient the design will be.</li>
-                        <li>Accept variable input from users, translating that input to meet your requirements, defining boundaries for input, and providing clear feedback to the user.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>Postel’s Law (also known as the Robustness Principle) was formulated by Jon Postel, an early pioneer of the Internet. The Law is a design guideline for software, specifically in regards to TCP and networks, and states “TCP implementations
-                        should follow a general principle of robustness: be conservative in what you do, be liberal in what you accept from others”. In other words, programs that send messages to other machines (or to other programs on the same machine) should
-                        conform completely to the specifications, but programs that receive messages should accept non-conformant input as long as the meaning is clear.343</p>
-                </article>
-            </section>
-            <section class="main-section" id="Serial_Position_Effect">
-                <header>Serial Position Effect</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>Users have a propensity to best remember the first and last items in a series.</code>
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Placing the least important items in the middle of lists can be helpful because these items tend to be stored less frequently in long-term and working memory.</li>
-                        <li>Positioning key actions on the far left and right within elements such as navigation can increase memorization.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>The serial effect, a term coined by Herman Ebbinghaus, describes how the position of an item in a sequence affects recall accuracy. The two concepts involved, the primacy effect and the recency effect, explains how items presented at the
-                        beginning of a sequence and the end of a sequence are recalled with greater accuracy than items in the middle of a list. Manipulation of the serial position effect to create better user experiences is reflected in many popular designs
-                        by successful companies like Apple, Electronic Arts, and Nike.</p>
-                    <p>The Primacy Effect: Items that are presented at the beginning of a list are recalled with greater accuracy than items in the middle of a list.</p>
-                </article>
-
-            </section>
-            <section class="main-section" id="Tesler_Law">
-                <header>Tesler Law</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>Tesler’s Law, also known as The Law of Conservation of Complexity, states that for any system there is a certain amount of complexity which cannot be reduced.</code>
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>All processes have a core of complexity that cannot be designed away and therefore must be assumed by either the system or the user.</li>
-                        <li>Ensure as much as possible of the burden is lifted from users by dealing with inherent complexity during design and development.</li>
-                        <li>Take care not to simplify interfaces to the point of abstraction.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>working for Xerox PARC in the mid-1980s, Larry Tesler realized that the way users interact with applications was just as important as the application itself. The book Designing for Interaction by Dan Saffer, includes an interview with
-                        Larry Tesler that describes the law of conservation of complexity. The interview is popular among user experience and interaction designers. Larry Tesler argues that, in most cases, an engineer should spend an extra week reducing the
-                        complexity of an application versus making millions of users spend an extra minute using the program because of the extra complexity However, Bruce Tognazzini proposes that people resist reductions to the amount of complexity in their
-                        lives. Thus, when an application is simplified, users begin attempting more complex tasks.</p>
-                </article>
-            </section>
-            <section class="main-section" id="Zeigarnik_Effect">
-                <header>Zeigarnik Effect</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>People remember uncompleted or interrupted tasks better than completed tasks.</code>
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Providing artificial progress towards a goal will help to ensure users are more likley to have the motivation to complete that task.</li>
-                        <li>The closer users are to completing a task, the faster they work towards reaching it.</li>
-                        <li>otivation can be enhanced by visually representing progress and completion, e.g. progress bars.
-                        </li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>Bluma Wulfovna Zeigarnik (1900 – 1988) was a Soviet psychologist and psychiatrist, a member of the Berlin School of experimental psychology and Vygotsky Circle. She discovered the Zeigarnik effect and contributed to the establishment of
-                        experimental psychopathology as a separate discipline in the Soviet Union in the post-World War II period. In the 1920s she conducted a study on memory, in which she compared memory in relation to incomplete and complete tasks. She
-                        had found that incomplete tasks are easier to remember than successful ones. This is now known as the Zeigarnik effect. She later began working at the Institute of Higher Nervous Activity which is where she would meet her next big
-                        influence Vygowski, and become a part of his circle of scientists. It was also there that Zeigarnik founded the Department of Psychology. During that time, Zeigarnik received the Lewin Memorial Award in 1983 for her psychological research.</p>
-                </article>
-            </section>
-            <section class="main-section" id="Von_Restorff_Effect">
-                <header>Von Restorff Effect</header>
-                <article>
-                    <h2>Overview</h2>
-                    <code>The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered.</code>
-                    <h2>Takeaways</h2>
-                    <ul>
-                        <li>Make important information or key actions visually distinctive.</li>
-                        <li>Use restraint when placing emphasis on visual elements to avoid them competing with one another and to ensure salient items don’t get mistakenly identified as ads./li>
-                            <li>Don’t exclude those with a color vision deficiency or low vision by relying exclusively on color to communicate contrast.</li>
-                            <li>Carefully consider users with motion sensitivity when using motion to communicate contrast.</li>
-                    </ul>
-                    <h2>Origin</h2>
-                    <p>The theory was coined by German psychiatrist and pediatrician Hedwig von Restorff (1906–1962), who, in her 1933 study, found that when participants were presented with a list of categorically similar items with one distinctive, isolated
-                        item on the list, memory for the item was improved.</p>
-                </article>
-            </section>
-
-        </main>
-    </body>
-
+    const projectList = document.getElementById("project-list");
+    projects.forEach(project => {
+      const listItem = document.createElement("li");
+      listItem.innerHTML = `<strong>${project.title}:</strong> ${project.description}`;
+      projectList.appendChild(listItem);
+    });
+  </script>
+</body>
 </html>

@@ -1,184 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400&display=swap');
-html,
 body {
-    min-width: 290px;
-    color: #00321a;
-    background-color: #fff;
-    font-family: 'Spartan', sans-serif;
-    line-height: 1.5;
-    font-size: 0.9rem;
-}
-/* * {
-margin: 0;
-padding: 0;
-} */
-
-#navbar {
-    position: fixed;
-    min-width: 300px;
-    top: 0px;
-    left: 0px;
-    width: 300px;
-    height: 100%;
-    background-color: #5ce379;
-}
-
-#navbar ul {
-    height: 90%;
-    padding: 1rem;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
-header {
-    color: #00311b;
-    margin: 10px;
-    text-align: center;
-    font-size: 1.3rem;
-    font-family: 'Spartan', sans-serif;
-    margin-top: 2rem;
-}
-
-#navbar li {
-    list-style: none;
-    position: relative;
-    width: 100%;
-}
-
-#navbar a {
-    display: block;
-    padding: 10px 30px;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    color: #4bb462;
-}
-
-#main-doc {
-    margin-left: 310px;
-    padding: 40px;
-    margin-bottom: 50px;
-}
-
-.main-section {
-    margin-left: 20px;
-}
-
-#navbar ul {
-    height: 90%;
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
-#navbar li {
-    list-style: none;
-    position: relative;
-    width: 100%;
-}
-
-#navbar a:hover {
-    display: block;
-    padding: 10px 30px;
-    color: #00321a;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-code {
-    display: block;
-    text-align: left;
-    white-space: normal;
-    word-break: break-all;
-    word-wrap: break-word;
-    position: relative;
-    line-height: 2;
-    background-color: #f7f7f7;
+    background-color: #f5f5f5;
+  }
+  
+  nav {
+    background-color: #333;
     padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
     border-radius: 5px;
-    font-size: 1rem;
-    font-family: 'Courier New', Courier, monospace;
-    color: #4bb462;
-    width: 100%;
-    overflow-y: auto;
-    overflow-x: auto;
-}
-
-@media only screen and (max-width: 815px) {
-    #navbar ul {
-        height: 200px;
-    }
-    #navbar {
-        position: fixed;
-        top: 0;
-        padding: 0;
-        margin: 0 auto;
-        width: 100%;
-        max-height: 300px;
-        z-index: 1;
-    }
-    #main-doc {
-        position: relative;
-        margin-left: 0px;
-        margin-top: 270px;
-    }
-}
-/* width */
-
- ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-/* Track */
-
- ::-webkit-scrollbar-track {
-    background: #fff;
-}
-/* Handle */
-
- ::-webkit-scrollbar-thumb {
-    background: #465757;
-    border-radius: 10px;
-}
-/* Handle on hover */
-
- ::-webkit-scrollbar-thumb:hover {
-    background: #091212;
-}
-/***** NavBar Scrollbar *******/
-/* Track */
-
-#navbar ul::-webkit-scrollbar-track {
-    background: #182d2e;
-}
-/* Handle */
-
-#navbar ul::-webkit-scrollbar-thumb {
-    background: #dfdfdf;
-    border: 1px solid #182d2e;
-}
-/* Handle on hover */
-
-#navbar ul::-webkit-scrollbar-thumb:hover {
-    background: #f8f8f8;
-}
-/****Code Snippets Scrollbar****/
-
-code::-webkit-scrollbar {
-    height: 3px;
-}
-
-code::-webkit-scrollbar-track {
-    background: #f7f7f7;
-}
-
-.wrong-code::-webkit-scrollbar-track {
-    background: #fcf3f3;
-}
-
-.preview::-webkit-scrollbar-track {
-    background: #fefefe;
-}
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .project-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .project-item:last-child {
+    margin-bottom: 0;
+  }
+  .project-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .project-description {
+    margin-top: 10px;
+    color: #888;
+  }
