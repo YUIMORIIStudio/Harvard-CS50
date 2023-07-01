@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sell
+{% endblock %}
+
+{% block styles %}
+
+
+{% endblock %}
+
+ {% block main %}
+<form class="needs-validation" action="/sell" method="post" novalidate>
+    <div class="form-group">
+        <select class="form-control" name="symbol" placeholder="Symbol" required>
+            {% for symbol in symbols %}
+            <option value="{{ symbol['symbol'] }}">{{ symbol['symbol'] }}</option>
+            {% endfor %}
+        </select>
+        <div class="invalid-feedback">Please select a symbol.</div>
+    </div>
+    <br>
+    <div class="form-group">
+        <input class="form-control" name="shares" placeholder="Shares" type="number" required>
+        <div class="invalid-feedback">Please enter the number of shares.</div>
+    </div>
+    <br>
+    <button class="btn btn-primary mr-2" type="submit">Sell</button>
+    <button class="btn btn-secondary" type="reset">Reset</button>
+</form>
+{% endblock %}
+
