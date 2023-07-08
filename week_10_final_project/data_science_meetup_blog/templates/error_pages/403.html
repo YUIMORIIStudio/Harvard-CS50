@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 text-center">
+      <img src="403_image.png" alt="403 Access Forbidden" class="img-fluid">
+      <h2 class="mt-4">Oops! Access Forbidden.</h2>
+      <p class="text-muted">You don't have permission to access this page. But don't worry, we've got some alternative options for you:</p>
+      <ul class="list-unstyled">
+        <li><a href="/">Go to the homepage</a></li>
+        <li><a href="/contact">Contact us</a></li>
+        <li><a href="/blog">Check out our blog</a></li>
+      </ul>
+       <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://giphy.com/embed/l4Ki2obCyAQS5WhFe" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

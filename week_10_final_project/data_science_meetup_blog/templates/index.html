@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+<br><br>
+<div class="jumbotron">
+  <h1 class="display-4">Hacker's Hideout｜Where Ideas Thrive </h1>
+  <p class="lead">「ハッカーの隠れ家」への参加を歓迎します。
+    この場所は、創造的なアイデアに興味を持つ方々を対象とした秘密の場所です。</p>
+  <p class="lead">
+  </p>
+  <hr class="my-4">
+  <p>
+    今回のイベントでは、エンジニアリング、デザイン、革新的なアイデアに関連するさまざまなトピックを探求します。初心者であろうと経験豊富なプロフェッショナルであろうと、このイベントは人脈を広げ、専門家から学び、知識を他人と共有する絶好の機会を提供します。
+  </p>
+
+  <p>
+    洞察力のある講演、インタラクティブなワークショップ、魅力的なディスカッションに参加しましょう。アイデアが蓄積する場所で、他の開発者と共に集まりましょう。この刺激的なイベントを見逃さないでください！今すぐ参加登録を行い、場所を確保しましょう。
+  </p>
+  <br>
+  <a class="btn btn-primary btn-lg" href="{{ url_for('users.register') }}" role="button">今すぐ登録</a>
+  <a class="btn btn-primary btn-lg" href="{{ url_for('users.register') }}" role="button"
+    style="    background-color: rgb(0, 255, 26); color: black;">Register Now</a>
+</div>
+ 
+
+<br><br><br><br><br><br>
+<div class="container">
+  {# Go through each blog post #}
+  {% for post in blog_posts.items %}
+  <div class="card">
+    <div class="card-body" style="color: black;">
+      <h2><a class="card-title" href="{{ url_for('blog_posts.blog_post', blog_post_id=post.id) }}">{{ post.title }}</a></h2>
+      <a class="card-text" href="{{ url_for('users.user_posts', username=post.author.username) }}">Written By: {{ post.author.username }}</a>
+      <p class="card-text">Published on: {{ post.date.strftime('%Y-%m-%d') }}</p>
+      <p class="card-text" style="color: black;">{{ post.text[:100] }}...</p>
+      <a href="{{ url_for('blog_posts.blog_post', blog_post_id=post.id) }}" class="btn btn-primary">Read Blog Post</a>
+    </div>
+  </div>
+  <br>
+  {% endfor %}
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      {% for page_num in blog_posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
+      {% if blog_posts.page == page_num %}
+      <li class="page-item disabled">
+        <a class="page-link" href="{{ url_for('core.index', page=page_num) }}">{{ page_num }}</a>
+      </li>
+      {% else %}
+      <li class="page-item"><a class="page-link" href="{{ url_for('core.index', page=page_num) }}">{{ page_num }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
+{% endblock %}

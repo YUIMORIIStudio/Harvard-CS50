@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Poppins:ital,wght@1,700&display=swap"
+    rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <meta charset="utf-8">
+  <title>Hacker's Hideout</title>
+  <style>
+    body {
+
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      margin: 0;
+      padding: 0;
+    }
+
+    .advertisement {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      padding: 10px;
+
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(255, 255, 255);
+      border-bottom: 1px solid black;
+    }
+
+    .nav-link {
+      list-style: none;
+      display: inline;
+    }
+
+    .nav-link-top {
+      list-style: none;
+      display: inline;
+      font-family: 'Dosis', sans-serif;
+
+    }
+
+    .nav-link a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      padding: 5px 10px;
+      font-family: 'Dosis', sans-serif;
+
+    }
+
+    .nav-link-top a {
+      color: rgb(0, 255, 26);
+      text-decoration: none;
+      padding: 5px 10px;
+      font-family: 'Dosis', sans-serif;
+
+    }
+
+    .nav-link a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .jumbotron {
+      margin-top: 50px;
+      background-color: white;
+      color: black;
+    }
+
+    .btn {
+      background-color: white;
+      color: black;
+      border-radius: 0;
+      border: 1px solid black;
+      font-family: 'Dosis', sans-serif;
+
+
+    }
+
+    .cta {
+      background-color: rgb(0, 255, 26);
+      color: rgb(0, 0, 0);
+      border-radius: 0;
+      border: 1px solid black;
+      font-family: 'Dosis', sans-serif;
+
+    }
+    .card-title {
+      color: black;
+      font-family: 'Dosis', sans-serif;
+    }
+    .card-text {
+      color: black;
+      font-family: 'Dosis', sans-serif;
+      font-size: 16px;
+    }
+
+
+    h1,
+    p {
+      font-family: 'Dosis', sans-serif;
+      font-weight: 200;
+    }
+
+    .btn-primary {
+
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+    }
+
+    .btn-primary:hover {
+      background-color: rgb(0, 255, 26);
+      color: rgb(0, 0, 0);
+
+    }
+    
+  </style>
+</head>
+
+<body>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <ul class="advertisement">
+        <li class="nav-link-top">We've just launched a new feature!
+          <a href="{{ url_for('core.index') }}">Check out the new dashboard!</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{{ url_for('core.index') }}">HH</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('core.index') }}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('core.info') }}">About</a>
+        </li>
+        {% if current_user.is_authenticated %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('users.logout') }}">Log Out</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('users.account') }}">Account</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('blog_posts.create_post') }}">Create Post</a>
+        </li>
+
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('users.login') }}">Log In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('users.register') }}">Register</a>
+        </li>
+        {% endif %}
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="container">
+    {% block content %}
+
+    {% endblock %}
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 text-center">
+      <h1 class="mt-4">Oops! Something went wrong.</h1>
+      <p class="text-muted">We couldn't find the page you were looking for. 
+      But don't worry, we've got some alternative options for you:</p>
+      <ul class="list-unstyled">
+        <li><a href="/">Go to the homepage</a></li>
+        <li><a href="/contact">Contact us</a></li>
+        <li><a href="/blog">Check out our blog</a></li>
+      </ul>
+       <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://giphy.com/embed/C21GGDOpKT6Z4VuXyn" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/spaceshiptw-404-spaceshiphk-spaceship404-C21GGDOpKT6Z4VuXyn">via GIPHY</a></p>
+      
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
